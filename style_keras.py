@@ -282,8 +282,8 @@ STYLE_LAYER_WEIGHTS = [
     30
 ]
 
-# normalize the style layer weights so the can be tweaked independently of the
-# relative weights of all style layer costs and the content cost
+# normalize the style layer weights so they can be tweaked independently of the
+# relative weights of all style layer costs combined and the content cost
 STYLE_LAYER_WEIGHTS = np.array(STYLE_LAYER_WEIGHTS)
 STYLE_LAYER_WEIGHTS = STYLE_LAYER_WEIGHTS / np.sum(STYLE_LAYER_WEIGHTS)
 
