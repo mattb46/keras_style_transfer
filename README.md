@@ -8,8 +8,9 @@ Please make sure you've updated Tensorflow and Keras and are currently running t
 I'll be expanding this ReadMe to contain a more detailed explanation of style transfer and the code in general. In the meantime I've listed some resources below that are very useful.
 
 * Coursera - Deep Learning: https://www.coursera.org/specializations/deep-learning
-* Adam Optimizer: https://arxiv.org/abs/1412.6980
+* Style Transfer: http://openaccess.thecvf.com/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf
 * ResNet: https://arxiv.org/abs/1512.03385
+* Adam Optimizer: https://arxiv.org/abs/1412.6980
 
 ## Files ##
 * style_keras.py is the main script which performes the style transfer with a pre trained model built in to Keras, ResNet50 was used in this example
